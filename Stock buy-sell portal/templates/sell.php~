@@ -1,0 +1,14 @@
+<?php
+    // configuration
+    require("../includes/config.php"); 
+
+	//select symbols that the user have
+	$rows=query("SELECT symbol FROM portfolio WHERE id=?",$_SESSION["id"]);
+		
+	
+	
+
+
+
+
+?>
